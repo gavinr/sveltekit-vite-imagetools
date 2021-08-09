@@ -12,7 +12,8 @@
     "@sveltejs/kit": "next",
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
-    "svelte": "^3.34.0"
+    "svelte": "^3.34.0",
+    "vite-imagetools": "^3.6.8"
   },
   "type": "module"
 }
