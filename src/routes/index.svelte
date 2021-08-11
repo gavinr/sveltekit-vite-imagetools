@@ -2,7 +2,7 @@
 	export async function load({ page }) {
 		const dynamicImages = [];
 		for (let i = 1; i < 5; i++) {
-			const path = `../../../static/${i}.jpg?w=400&h=300&webp`;
+			const path = `$static/${i}.jpg?w=400&h=300&webp`;
 			dynamicImages.push((await import(path)).default);
 		}
 
